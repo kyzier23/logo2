@@ -1,0 +1,161 @@
+h1 {
+  color:#333;
+  font-weight:700;
+  font-size:30px;
+  text-align:center;
+  margin-top: 100px;
+  
+}
+body{
+width: 100%;
+margin: 0;
+padding: 0;
+}
+#logo_container{
+width: 300px;
+height: 200px;
+margin: 0 auto;
+position: relative;
+margin-top: 100px;
+}
+#logo{
+width: 100px;
+margin-left: 100px;
+}
+#logo .head{
+position: relative;
+height: 40px;
+background: #bdd73c;
+border-radius:60px 60px 0 0 / 50px 50px 0 0;
+border: 2px solid #6fb74d;
+}
+.head .ant{
+width: 2px;
+height: 25px;
+background: #bdd73c;
+border: 2px solid #6fb74d;
+position: absolute;
+border-radius: 3px 3px 0 0;
+border-bottom: 2px solid #bdd73c;
+}
+.head .ant_left{
+top: -22px;
+left: 15px;
+-webkit-transform:rotate(-30deg);
+-moz-transform:rotate(-30deg);
+transform:rotate(-30deg);
+}
+.head .ant_right{
+top: -22px;
+left: 73px;
+-webkit-transform:rotate(30deg);
+-moz-transform:rotate(30deg);
+transform:rotate(30deg);
+}
+.lefteye, .righteye{
+position: absolute;
+background: #fff;
+border: 2px solid #6fb74d;
+width: 10px;
+height: 10px;
+-webkit-border-radius:10px;
+-moz-border-radius:10px;
+border-radius:10px;
+top: 15px;
+}
+.lefteye{
+left: 20px;
+}
+.righteye{
+left: 65px;
+}
+#logo .body{
+overflow: hidden;
+border: 2px solid #6fb74d;
+margin-top: 4px;
+border-radius: 0 0 60px 60px;
+}
+#logo .body .strip{
+height: 18px;
+background: #bdd73c;
+}
+#logo .body .brown{
+height: 22px;
+background: #5a4a42;
+}
+.left_wings .wing1,
+.left_wings .wing2{
+width: 100px;
+background: #e2e2e3;
+border: 2px solid #d1d0d1;
+border-radius:16px 0 0 16px;
+position: absolute;
+}
+.left_wings .wing1{
+height: 35px;
+top: 48px;
+left: 0;
+z-index: -1;
+opacity: .8;
+}
+.left_wings .wing2{
+top: 80px;
+left: 20px;
+z-index: -1;
+opacity: .6;
+height: 25px;
+-o-transform:rotate(45deg);
+-moz-transform:rotate(45deg);
+-ms-transform:rotate(45deg);
+-webkit-transform:rotate(-45deg);
+transform:rotate(45deg);
+}
+.right_wings .wing1,
+.right_wings .wing2{
+width: 100px;
+background: #e2e2e3;
+border: 2px solid #d1d0d1;
+border-radius:0 16px 16px 0;
+position: absolute;
+}
+.right_wings .wing1{
+height: 35px;
+top: 48px;
+left: 200px;
+z-index: -1;
+opacity: .8;
+}
+.right_wings .wing2{
+top: 80px;
+left: 175px;
+z-index: -1;
+opacity: .6;
+height: 25px;
+-o-transform:rotate(45deg);
+-moz-transform:rotate(45deg);
+-ms-transform:rotate(45deg);
+-webkit-transform:rotate(45deg);
+transform:rotate(45deg);
+}
+.tail{
+width: 16px;
+height: 40px;
+left: 143px;
+margin-top: -1px;
+position: absolute;
+background: #6fb74d;
+}
+.tail_left{
+width: 8px;
+height: 40px;
+background: #fff;
+float: left;
+border-top-right-radius:16px 40px;
+}
+.tail_right{
+width: 8px;
+height: 40px;
+background: #fff;
+float: left;
+border-top-left-radius:16px 40px;
+}

@@ -1,0 +1,37 @@
+<?php
+print "<html>\n";
+print "  <h1> BEE LINE </h1>\n";
+print "  <body>\n";
+print "    <div id=\"logo_container\">\n";
+print "      <div id=\"logo\">\n";
+print "       <div class=\"head\">\n";
+print "         <div class=\"ant ant_left\"></div>\n";
+print "         <div class=\"ant ant_right\"></div>\n";
+print "          <div class=\"lefteye\"></div>\n";
+print "         <div class=\"righteye\"></div>\n";
+print "      </div>\n";
+print "      <div class=\"body\">\n";
+print "        <div class=\"strip brown\"></div>\n";
+print "        <div class=\"strip\"></div>\n";
+print "        <div class=\"strip brown\"></div>\n";
+print "        <div class=\"strip\"></div>\n";
+print "       <div class=\"strip brown\"></div>\n";
+print "       <div class=\"strip last\"></div>\n";
+print "     </div>\n";
+print "    <div class=\"left_wings\">\n";
+print "      <div class=\"wing1\"></div>\n";
+print "      <div class=\"wing2\"></div>\n";
+print "    </div>\n";
+print "    <div class=\"right_wings\">\n";
+print "      <div class=\"wing1\"></div>\n";
+print "       <div class=\"wing2\"></div>\n";
+print "    </div>\n";
+print "   <div class=\"tail\">\n";
+print "      <div class=\"tail_left\"></div>\n";
+print "      <div class=\"tail_right\"></div>\n";
+print "     </div>\n";
+print "     </div>\n";
+print "      </div>\n";
+print "  </body>\n";
+print "</html>";
+?>
