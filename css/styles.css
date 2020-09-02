@@ -6,9 +6,11 @@ h1 {
 }
 body{
 width: 100%;
-margin: 0;
+margin: 100%;
 padding: 0;
   background-color: black;
+  
+  
 }
 #logo_container{
 width: 300px;
