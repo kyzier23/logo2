@@ -1,5 +1,6 @@
 <?php
 print "<html>\n";
+print "<link rel=\"stylesheet\" href=\"css/styles.css\">\n";
 print "  <h1> BEE LINE </h1>\n";
 print "  <body>\n";
 print "    <div id=\"logo_container\">\n";
