@@ -1,15 +1,16 @@
 h1 {
-  color:#333;
+  color:#bdd73c;
   font-weight:700;
   font-size:30px;
   text-align:center;
-  margin-top: 100px;
-  
 }
 body{
+  height: 100%;
 width: 100%;
-margin: 0;
+margin: 100;
 padding: 0;
+  border-style: solid;
+  border-width: 25px 10px 4px 35px;
 }
 #logo_container{
 width: 300px;
@@ -17,8 +18,6 @@ height: 200px;
 margin: 0 auto;
 position: relative;
 margin-top: 100px;
-border-style: solid;
-  border-width: 50px 50px;
 }
 #logo{
 width: 100px;
@@ -98,13 +97,11 @@ height: 35px;
 top: 48px;
 left: 0;
 z-index: -1;
-opacity: .8;
 }
 .left_wings .wing2{
 top: 80px;
 left: 20px;
 z-index: -1;
-opacity: .6;
 height: 25px;
 -o-transform:rotate(45deg);
 -moz-transform:rotate(45deg);
@@ -125,13 +122,11 @@ height: 35px;
 top: 48px;
 left: 200px;
 z-index: -1;
-opacity: .8;
 }
 .right_wings .wing2{
 top: 80px;
 left: 175px;
 z-index: -1;
-opacity: .6;
 height: 25px;
 -o-transform:rotate(45deg);
 -moz-transform:rotate(45deg);
