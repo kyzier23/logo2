@@ -11,6 +11,7 @@ margin: 100;
 padding: 0;
   border-style: solid;
   border-width: 25px 10px 4px 35px;
+  color: black;
 }
 #logo_container{
 width: 300px;
