@@ -10,6 +10,8 @@ body{
 width: 100%;
 margin: 0;
 padding: 0;
+  border-style: double;
+  border-width: 20px 5px;
 }
 #logo_container{
 width: 300px;
@@ -18,7 +20,7 @@ margin: 0 auto;
 position: relative;
 margin-top: 100px;
 border-style: double;
-border-width: 7px;
+  border-width: 20px 5px;
 }
 #logo{
 width: 100px;
