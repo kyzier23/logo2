@@ -17,6 +17,8 @@ height: 200px;
 margin: 0 auto;
 position: relative;
 margin-top: 100px;
+border-style: double;
+border-width: 5px;
 }
 #logo{
 width: 100px;
